@@ -38,6 +38,6 @@ class Song
   end 
   def self.alphebetical
    sorted = []
-   sorted = @@all.sort_by{|word| 
+   sorted = @@all.sort_by{|word| word|
   end
 end
