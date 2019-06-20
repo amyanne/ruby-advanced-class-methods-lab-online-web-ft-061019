@@ -37,5 +37,9 @@ class Song
     if self.all.include?(name)
       name 
     else 
-      
+      song = self.new
+     song.name = name 
+     song.save 
+     song
+   end
 end
