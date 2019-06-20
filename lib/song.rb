@@ -37,4 +37,5 @@ class Song
     if self.all.include?(name)
       name 
     else 
+      
 end
