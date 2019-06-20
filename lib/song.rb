@@ -19,7 +19,7 @@ class Song
   
   def self.new_by_name(name)
     name = @name
-    song = song.create
+    song = self.new
     song.name = @name
   
     
