@@ -40,6 +40,8 @@ class Song
    @@all.sort_by{|word| word.name}
   end
   def self.new_from_filename(data)
-    
+    song = self.new
+    song.name = data.split(" - ")
+    song.artist_name = data.split
   end
 end
